@@ -32,3 +32,15 @@ void display2()
 
 
 }
+//Main class
+
+package assignment2.newpackage1;
+
+public class Main {
+    public static void main(String[] args) {
+        Square ob=new Square();
+    ob.display3();
+    ob.display1();
+    }
+    
+}
