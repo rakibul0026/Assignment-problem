@@ -28,3 +28,22 @@ class Motorcycle extends Vehicle  {
 		System.out.println(" Engine stop");
 	}
 }
+//Main class
+package assignment3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Vehicle ob=new Car();
+		ob.startEngine();
+		ob.stopEngine();
+		
+		Vehicle ob1=new Motorcycle();
+		ob1.startEngine();
+		ob1.stopEngine();
+		
+		
+	}
+
+}
+
