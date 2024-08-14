@@ -34,3 +34,31 @@ class Manager extends Member{
          printSalary(); 
     }
 }
+//Main class
+
+package assignment2.newpackage;
+
+public class Main {
+    public static void main(String[] args) {
+        Employee ob = new Employee();
+          ob.Name="rakibul";
+          ob.Age=23;
+          ob.Phonenumber="019******";
+          ob.Address="cumilla";
+          ob.Salary="25000";
+          ob.specialization="web development\n\n";
+          ob.display1();
+           
+          Manager ob1= new Manager();
+          ob1.Name="borsha ";
+          ob1.Age=21;
+          ob1.Phonenumber="019******";
+          ob1.Address="dhaka";
+          ob1.Salary="25000";
+          ob1.department="CSE";
+          ob1.print();
+               
+    }
+    
+}
+
