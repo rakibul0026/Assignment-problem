@@ -1,4 +1,3 @@
-
 /* Create a class with a method that prints "This is parent class" and its subclass
 with another method that prints "This is child class". Now, create an object for
 each of the classes and call
@@ -18,3 +17,19 @@ class  child extends parent{
         System.out.println("This is child class");
     }
 }
+//Main class
+
+package assignment2;
+public class Main {
+    public static void main(String[] args) {
+        parent ob=new parent();
+        ob.display();
+        //ob.print();
+        
+        child ob2= new  child();
+        ob2.print();
+        //ob2.display();
+    }
+    
+}
+
