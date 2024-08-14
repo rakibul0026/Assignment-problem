@@ -31,3 +31,30 @@ public class Test {
     }
 }
 //Main Class
+package assignment3;
+
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Student[] ob = new Student[3];
+        
+
+        for (int i = 0; i < 3; i++) {
+            System.out.print("Enter Student ID: ");
+            int Id = sc.nextInt();
+
+            System.out.print("Enter Score: ");
+            int score = sc.nextInt();
+
+            ob[i] = new Student(Id, score);
+        }
+
+        for (int i = 0; i < 3; i++) {
+            ob[i].display();
+        }
+
+        
+    }
+}
