@@ -35,4 +35,24 @@ class Deer extends Animal
 	
 	
 }
+//Main class
+package assignment3;
+
+public class Test {
+
+	public static void main(String[] args) {
+		 Animal ob=new  Lion();
+		 ob.eat();
+		 ob.sleep();
+		 
+		 Animal ob1=new  Tiger();
+		 ob1.eat();
+		 ob1.sleep();
+		 
+		 Animal ob2=new Deer();
+		 ob2.eat();
+		 ob2.sleep();
+	}
+
+}
 
